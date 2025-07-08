@@ -1,0 +1,6 @@
+- name: debug module
+  become: yes
+  tasks:
+     - name: debug module
+       ansible.builtin.debug:
+         msg: "welcome to config"
