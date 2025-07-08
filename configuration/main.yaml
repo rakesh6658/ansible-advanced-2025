@@ -1,6 +1,6 @@
 - name: debug module
   become: yes
-  hosts: localhost
+  hosts: mongodb
   tasks:
      - name: debug module
        ansible.builtin.debug:
